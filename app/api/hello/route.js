@@ -1,3 +1,8 @@
+let numberOfRequests = 0
+
 export async function GET(request) {
-  return new Response('Hello, Next.js!')
+  numberOfRequests = numberOfRequests + 1
+  const msg = `Hello, Next.js! For the ${numberOfRequests} times`
+
+  return new Response(msg)
 }

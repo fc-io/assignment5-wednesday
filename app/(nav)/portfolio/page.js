@@ -1,9 +1,10 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './page.module.css'
-import photo from '../../public/photo.jpg'
+import photo from '../../../public/photo.jpg'
 
-export default function About() {
+export default function Portfolio() {
   return (
     <div>
       <h1 className={styles.headingPortfolio}>Portfolio</h1>

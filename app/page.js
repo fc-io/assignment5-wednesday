@@ -12,6 +12,8 @@ export default function Home() {
         <h1 className={inter.className}>This is my homepage</h1>
         <div><Link href="/about">Go to About</Link></div>
         <div><Link href="/portfolio">Go to Portfolio</Link></div>
+        <div><Link href="/ping">Go to Ping</Link></div>
+        <div><Link href="/pong">Go to Pong</Link></div>
       </div>
     </main>
   )

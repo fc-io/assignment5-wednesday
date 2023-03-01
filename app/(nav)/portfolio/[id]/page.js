@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import photo from '../../../public/photo.jpg'
+import photo from '../../../../public/photo.jpg'
 
 export default function PorfolioProject({ params }) {
   if (params.id === 'project1') {
