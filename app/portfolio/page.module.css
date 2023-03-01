@@ -1,0 +1,10 @@
+.headingPortfolio {
+  color: red;
+}
+
+.link:hover {
+  display: block;
+  opacity: 80%;
+  color: red;
+  text-decoration: underline;
+}
